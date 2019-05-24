@@ -11,6 +11,6 @@ public class Config {
 	@Bean
 	public Pageable getPageable()
 	{
-		return PageRequest.of(0, 100);
+		return PageRequest.of(0, 1);
 	}
 }
